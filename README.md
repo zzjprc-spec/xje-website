@@ -35,6 +35,10 @@ A     @      185.199.108.153
 A     @      185.199.109.153
 A     @      185.199.110.153
 A     @      185.199.111.153
+AAAA  @      2606:50c0:8000::153
+AAAA  @      2606:50c0:8001::153
+AAAA  @      2606:50c0:8002::153
+AAAA  @      2606:50c0:8003::153
 CNAME www    GITHUB_USERNAME.github.io
 ```
 
@@ -42,6 +46,8 @@ CNAME www    GITHUB_USERNAME.github.io
 7. 等待 DNS 生效，然后返回 GitHub Pages 勾选 `Enforce HTTPS`。
 
 项目中的 `CNAME` 文件已经设置为 `xjenviro.com`。不要在 GitHub 上删除或修改它。
+
+当前线上站点：`https://xjenviro.com/`，GitHub Pages 已开启强制 HTTPS。
 
 ## 上线前需要确认
 
